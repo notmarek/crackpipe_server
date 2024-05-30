@@ -1,0 +1,12 @@
+[package]
+name = "macros_impl"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+quote = "1"
+syn = { version = "2", features = ["extra-traits"] }
+regex = "1.10.4"
+
+[lib]
+proc-macro = true

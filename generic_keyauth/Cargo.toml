@@ -1,0 +1,13 @@
+[package]
+name = "generic_keyauth"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rocket = { version = "0.5.0", features = ["json"] }
+serde_json = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+hmac = "0.12.1"
+sha2 = "0.10"
+base64 = "0.22"
+toml = "0.8"

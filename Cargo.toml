@@ -1,0 +1,12 @@
+[package]
+name = "crackpipe_server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rocket = { version = "0.5.0" }
+akebi = { path = "akebi" }
+korepi = { path = "korepi" }
+generic_keyauth = { path = "generic_keyauth" }
+useful_macros = { path = "useful_macros" }
+crackpipe = { path = "crackpipe" }
